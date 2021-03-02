@@ -39,7 +39,7 @@ public class GitDemo {
     
     /*****
      * This function should reverse 'num' and return the resulting value.
-     * i.e. if num = 1234;
+     * i.e. if num = 1234;j
      *  the function will return 4321
      *****/
     public double reverseNumber(int num){
