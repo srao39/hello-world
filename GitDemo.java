@@ -48,13 +48,18 @@ public class GitDemo {
          
         double newNumber = 0;
         
+
         while( num != 0 ) {
             double temp = num % 10;
             newNumber = newNumber * 10 + temp;
             num /= 10;
+=======
+        for(int i = 1; i <= num; ++i){
+            newNumber = newNumber * i;
+         
+
         }
+        reverseNumber = newNumber;
         
         return newNumber;
     }
-        
-   
